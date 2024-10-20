@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #394b37;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #394b37;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Pixellari, Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+  background: url("/images/burning-building-1.png") no-repeat center center;
+  background-size: cover;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 1);
+}
