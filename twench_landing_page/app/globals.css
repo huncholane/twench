@@ -29,8 +29,8 @@ body {
 }
 
 .large-text-shadow {
-  text-shadow: 8px 8px 0 #000, -8px -8px 0 #000, 8px -8px 0 #000,
-    -8px 8px 0 #000, 8px 0 0 #000, -8px 0 0 #000, 0 8px 0 #000, 0 -8px 0 #000;
+  text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
+    -4px 4px 0 #000, 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000;
 }
 
 .landing {
