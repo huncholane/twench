@@ -4,8 +4,8 @@ import React from "react";
 const Header = () => {
   return (
     <div className="h-32 flex justify-between">
-      <div></div>
-      <div className="w-[220px] my-auto">
+      <div className="hidden sm:block"></div>
+      <div className="sm:w-[220px] my-auto pl-3 sm:pl-0">
         <Image
           src="/images/logo.png"
           alt="Twench"
@@ -41,12 +41,12 @@ const Header = () => {
         </a>
       </div>
       <a
-        className="p-3 border-black bg-background my-auto rounded-full border-4 text-[28px] leading-[30.52px] cursor-pointer hover:brightness-150"
+        className="p-1 sm:p-3 border-black bg-background my-auto rounded-full border-4 text-[12px] leading-[30.52px] cursor-pointer hover:brightness-150 sm:text-[28px] mr-3 sm:mr-0"
         href=""
       >
         BUY $TWENCH
       </a>
-      <div></div>
+      <div className="hidden sm:block"></div>
     </div>
   );
 };
