@@ -29,6 +29,11 @@ body {
   }
 }
 
+.small-text-shadow {
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
+}
+
 .large-text-shadow {
   text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
     -4px 4px 0 #000, 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000;
