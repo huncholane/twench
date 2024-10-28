@@ -1,5 +1,5 @@
+import "./Header.css";
 import Image from "next/image";
-import React from "react";
 
 const Header = () => {
   return (
@@ -41,7 +41,7 @@ const Header = () => {
         </a>
       </div>
       <a
-        className="p-1 sm:p-3 border-black bg-background my-auto rounded-full border-4 text-[12px] leading-[30.52px] cursor-pointer hover:brightness-150 sm:text-[28px] mr-3 sm:mr-0 small-text-shadow sm:large-text-shadow text-white"
+        className="p-1 sm:p-3 border-black bg-background my-auto rounded-full border-4 text-[12px] leading-[30.52px] cursor-pointer hover:brightness-150 sm:text-[28px] mr-3 sm:mr-0 small-text-shadow sm:text-shadow text-white"
         href=""
       >
         BUY $TWENCH
