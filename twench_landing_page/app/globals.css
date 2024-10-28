@@ -5,6 +5,10 @@
 :root {
   --background: #394b37;
   --foreground: #171717;
+  --ts-small: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
+  --ts-medium: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
+    -4px 4px 0 #000, 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000;
 }
 
 body {
@@ -23,11 +27,9 @@ body {
 }
 
 .small-text-shadow {
-  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
-    -2px 2px 0 #000, 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
+  text-shadow: var(--ts-small);
 }
 
 .text-shadow {
-  text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
-    -4px 4px 0 #000, 4px 0 0 #000, -4px 0 0 #000, 0 4px 0 #000, 0 -4px 0 #000;
+  text-shadow: var(--ts-medium);
 }
