@@ -4,7 +4,8 @@ const textShadowPlugin = plugin(function ({ matchUtilities, theme }) {
   matchUtilities(
     {
       "text-shadow": (value: string) => ({
-        textShadow: value,
+        textShadow: `${value} ${value} 0 #000, -${value} -${value} 0 #000, ${value} -${value} 0 #000,
+        -${value} ${value} 0 #000, ${value} 0 0 #000, -${value} 0 0 #000, 0 ${value} 0 #000, 0 -${value} 0 #000;`,
       }),
     },
     {

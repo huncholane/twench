@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import textShadowPlugin from "./plugins/text-shadow";
 
 const config: Config = {
   content: [
@@ -14,6 +15,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [textShadowPlugin],
 };
 export default config;

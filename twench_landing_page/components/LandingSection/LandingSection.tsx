@@ -11,7 +11,7 @@ const LandingSection = () => {
           <div>dex</div>
           <div>tools</div>
         </div>
-        <a className="buy-button">BUY $TWENCH</a>
+        <a className="buy-button text-shadow-[1px]">BUY $TWENCH</a>
       </div>
     </div>
   );
