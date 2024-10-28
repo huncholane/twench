@@ -24,11 +24,3 @@ body {
     text-wrap: balance;
   }
 }
-
-.small-text-shadow {
-  text-shadow: var(--ts-small);
-}
-
-.text-shadow {
-  text-shadow: var(--ts-medium);
-}
