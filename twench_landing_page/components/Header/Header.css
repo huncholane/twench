@@ -1,0 +1,3 @@
+.Header {
+  @apply h-32 flex justify-between -mb-32;
+}

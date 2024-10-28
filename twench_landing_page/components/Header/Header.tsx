@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="h-32 flex justify-between">
+    <div className="Header">
       <div className="hidden sm:block"></div>
       <div className="sm:w-[220px] my-auto pl-3 sm:pl-0">
         <Image
