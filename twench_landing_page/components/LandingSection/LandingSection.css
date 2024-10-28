@@ -6,22 +6,32 @@
   overflow-x: hidden;
 }
 
-.LandingTank {
+.LandingSection .Tank {
   background: url("/images/tank.png") no-repeat center center;
   background-size: auto 100%;
   @apply absolute bottom-0 left-0 w-full;
   @apply md:top-52 xs:top-44 top-40;
 }
 
-.LandingSoldier {
+.LandingSection .Soldier {
   background: url("/images/soldier.png") no-repeat center center;
   background-size: auto 100%;
   @apply absolute bottom-0 right-0 w-full;
   @apply md:top-60 xs:top-52 top-48;
 }
 
-.LandingTitle {
-  @apply text-[150px] text-center w-full absolute md:top-32 leading-none text-shadow-lg;
+.LandingSection .Title {
+  @apply text-[150px] text-center w-full absolute md:top-32 leading-none;
   @apply md:text-[150px] xs:text-[100px] text-[69px];
+  @apply md:text-shadow-lg xs:text-shadow-md text-shadow;
   @apply top-32;
+}
+
+.LandingSection .OpenGameButton {
+  @apply rounded-full absolute leading-none text-black bottom-8 text-shadow-none;
+  @apply py-3 px-8;
+  @apply border-black border-4;
+  @apply bg-white hover:bg-background cursor-pointer;
+  @apply right-[100px] lg:right-[200px];
+  @apply text-[20px] lg:text-[50px];
 }
