@@ -1,2 +1,24 @@
 .AboutSection {
+  @apply bg-[#394B37];
+  @apply h-[570px] w-screen relative;
+}
+
+.AboutSection h1 {
+  @apply text-[35px] w-full absolute top-[40px] text-center;
+}
+
+.AboutSection p {
+  @apply text-[14px] absolute top-[100px] text-center p-4 bg-[#688C65] rounded-md left-[2%] right-[2%] bottom-[30%] text-shadow;
+  @apply 424:left-[15%] 424:right-[15%];
+  @apply 552:left-[25%] 552:right-[25%];
+  @apply 664:text-[16px];
+  @apply 844:text-[18px];
+  @apply 1100:left-[30%] 1100:right-[30%];
+  @apply 1430:left-[35%] 1430:right-[35%];
+}
+
+.AboutSection .Bull {
+  background: url("/images/bull.png") no-repeat center 0;
+  background-size: auto 100%;
+  @apply bottom-0 h-[50%] w-screen absolute;
 }
