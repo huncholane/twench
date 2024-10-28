@@ -11,9 +11,10 @@
 }
 
 .MotivationSection .Text {
-  @apply text-white absolute;
-  @apply left-[35%];
-  @apply right-[7%];
-  @apply top-[20%];
-  @apply text-[40px];
+  @apply text-white absolute rounded-md p-2 bg-black left-[5%] top-[60%] right-[30%] bg-opacity-80;
+  @apply 424:top-[70%];
+  @apply 552:top-[5%] 552:left-[45%] 552:right-[5%] 552:text-[20px]  552:bg-transparent;
+  @apply 902:top-[10%] 902:left-[35%] 902:text-[27px];
+  @apply 1100:text-[42px];
+  @apply 1680:text-[50px] 1680:top-[15%] 1680:right-[15%];
 }
