@@ -4,7 +4,7 @@
 
 :root {
   --background: #394b37;
-  --foreground: #171717;
+  --foreground: white;
   --ts-small: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
     2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
   --ts-medium: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,
@@ -12,11 +12,10 @@
 }
 
 body {
-  color: white;
+  color: var(--foreground);
   background: var(--background);
   font-family: Pixellari, Arial, Helvetica, sans-serif;
-  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
-    -2px 2px 0 #000, 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
+  text-shadow: var(--ts-small);
   overflow-x: hidden;
 }
 
