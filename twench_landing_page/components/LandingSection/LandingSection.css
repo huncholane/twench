@@ -28,10 +28,10 @@
 }
 
 .LandingSection .OpenGameButton {
-  @apply rounded-full absolute leading-none text-black bottom-8 text-shadow-none hover:bg-background;
+  @apply rounded-full absolute leading-none text-black bottom-8 text-shadow-none;
   @apply py-3 px-8;
   @apply border-black border-4;
-  @apply bg-white hover:bg-background cursor-pointer;
+  @apply bg-white hover:bg-primary cursor-pointer;
   @apply right-1/2 transform translate-x-1/2 lg:right-[20%];
   @apply text-[16px] lg:text-[50px];
 }
