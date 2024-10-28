@@ -1,2 +1,19 @@
 .MotivationSection {
+  background: url("/images/camo-bg.png") no-repeat center center fixed;
+  background-size: cover;
+  @apply w-screen h-screen relative;
+}
+
+.MotivationSection .Picture {
+  background: url("/images/proposal.png") no-repeat;
+  background-size: auto 100%;
+  @apply absolute top-0 left-0 w-full h-full;
+}
+
+.MotivationSection .Text {
+  @apply text-white absolute;
+  @apply left-[35%];
+  @apply right-[7%];
+  @apply top-[20%];
+  @apply text-[40px];
 }
