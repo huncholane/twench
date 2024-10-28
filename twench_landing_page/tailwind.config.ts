@@ -14,7 +14,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       textShadow: {
-        default: "1px",
+        DEFAULT: "1px",
         sm: "2px",
         md: "3px",
         lg: "4px",

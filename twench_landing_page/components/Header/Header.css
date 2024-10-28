@@ -6,5 +6,5 @@
   @apply p-1 sm:p-3 border-black bg-background my-auto;
   @apply rounded-full border-4 text-[12px] leading-[30.52px];
   @apply cursor-pointer hover:brightness-150 sm:text-[28px];
-  @apply mr-3 sm:mr-0 text-shadow-[1px] sm:text-shadow-sm text-white;
+  @apply mr-3 sm:mr-0 text-shadow sm:text-shadow-sm text-white;
 }
