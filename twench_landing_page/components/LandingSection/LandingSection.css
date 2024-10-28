@@ -5,3 +5,23 @@
   background-size: cover;
   overflow-x: hidden;
 }
+
+.LandingTank {
+  background: url("/images/tank.png") no-repeat center center;
+  background-size: auto 100%;
+  @apply absolute bottom-0 left-0 w-full;
+  @apply md:top-52 xs:top-44 top-40;
+}
+
+.LandingSoldier {
+  background: url("/images/soldier.png") no-repeat center center;
+  background-size: auto 100%;
+  @apply absolute bottom-0 right-0 w-full;
+  @apply md:top-60 xs:top-52 top-48;
+}
+
+.LandingTitle {
+  @apply text-[150px] text-center w-full absolute md:top-32 leading-none text-shadow-lg;
+  @apply md:text-[150px] xs:text-[100px] text-[69px];
+  @apply top-32;
+}
