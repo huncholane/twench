@@ -1,7 +1,7 @@
 .MotivationSection {
   background: url("/images/camo-bg.png") no-repeat center center fixed;
   background-size: cover;
-  @apply w-screen h-screen relative;
+  @apply w-screen h-screen relative min-h-[570px];
 }
 
 .MotivationSection .Picture {
