@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #394b37;
+  --background: black;
   --foreground: white;
   --ts-small: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
     2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
