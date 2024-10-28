@@ -1,10 +1,11 @@
 .Banner {
-  @apply w-full px-[5%];
+  @apply w-full px-[5%] bg-black;
 }
+
 .Banner .Picture {
   background: url("/images/banner.png") repeat-x center center;
   @apply h-16;
-  animation: scrollBackground 10s linear infinite;
+  animation: scrollBackground 1000s linear infinite;
 }
 
 @keyframes scrollBackground {
@@ -12,6 +13,6 @@
     background-position: 0 center;
   }
   to {
-    background-position: -100% center;
+    background-position: -10000% center;
   }
 }
