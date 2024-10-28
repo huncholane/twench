@@ -23,7 +23,7 @@
 .LandingSection .Title {
   @apply text-[150px] text-center w-full absolute md:top-32 leading-none;
   @apply md:text-[150px] xs:text-[100px] text-[69px];
-  @apply md:text-shadow-lg xs:text-shadow-md text-shadow;
+  @apply md:text-shadow-lg xs:text-shadow-md text-shadow-sm;
   @apply top-32;
 }
 
