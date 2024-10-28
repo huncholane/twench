@@ -2,7 +2,7 @@ import { text } from "stream/consumers";
 import plugin from "tailwindcss/plugin";
 
 function textShadow(value: string) {
-  if (!value) {
+  if (!value || value === "none") {
     return "none";
   }
   return `${value} ${value} 0 #000, -${value} -${value} 0 #000, ${value} -${value} 0 #000, -${value} ${value} 0 #000, ${value} 0 0 #000, -${value} 0 0 #000, 0 ${value} 0 #000, 0 -${value} 0 #000`;
@@ -25,7 +25,7 @@ const textShadowPlugin = plugin(
     theme: {
       textShadow: {
         DEFAULT: "1px",
-        none: "0",
+        none: "none",
         sm: "2px",
         md: "3px",
         lg: "4px",

@@ -32,6 +32,6 @@
   @apply py-3 px-8;
   @apply border-black border-4;
   @apply bg-white hover:bg-background cursor-pointer;
-  @apply right-[100px] lg:right-[200px];
+  /* @apply right-[100px] lg:right-[200px]; */
   @apply text-[20px] lg:text-[50px];
 }
