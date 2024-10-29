@@ -1,6 +1,7 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
 import BuySection from "@/components/BuySection";
+import FinalArtSection from "@/components/FinalArtSection";
 import Header from "@/components/Header";
 import LandingSection from "@/components/LandingSection";
 import MotivationSection from "@/components/MotivationSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <VideoSection />
       <BuySection />
       <RoadMapSection />
+      <FinalArtSection />
     </div>
   );
 }

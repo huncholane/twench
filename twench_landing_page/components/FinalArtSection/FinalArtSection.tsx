@@ -1,10 +1,10 @@
-import React from 'react';
-import './FinalArtSection.css';
+import React from "react";
+import "./FinalArtSection.css";
 
 const FinalArtSection: React.FC = () => {
   return (
     <div className="FinalArtSection">
-      FinalArtSection
+      <div className="Running"></div>
     </div>
   );
 };

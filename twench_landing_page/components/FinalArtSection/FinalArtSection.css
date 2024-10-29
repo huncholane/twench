@@ -1,2 +1,16 @@
 .FinalArtSection {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100px,
+      rgba(255, 255, 255, 0) calc(100% - 100px),
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url("/images/final/building.png") no-repeat center center/cover;
+  @apply h-[900px];
+}
+
+.FinalArtSection .Running {
+  background: url("/images/final/running.png") no-repeat center center/cover;
+  @apply h-full;
 }
