@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const pixellari = localFont({
   src: "./fonts/Pixellari.ttf",
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${pixellari.className} antialiased`}>{children}</body>
+      <body className={`${pixellari.className} antialiased`}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
