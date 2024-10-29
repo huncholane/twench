@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import LandingSection from "@/components/LandingSection";
 import MotivationSection from "@/components/MotivationSection";
 import RoadMapSection from "@/components/RoadMapSection";
+import SocialBar from "@/components/SocialBar";
 import VideoSection from "@/components/VideoSection";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <BuySection />
       <RoadMapSection />
       <FinalArtSection />
+      <SocialBar />
     </div>
   );
 }
