@@ -5,6 +5,7 @@
 :root {
   --background: black;
   --foreground: white;
+  --primary: #688c65;
   --ts-small: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
     2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000;
   --ts-medium: 4px 4px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000,

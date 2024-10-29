@@ -1,3 +1,15 @@
 .VideoSection {
   @apply w-full h-0 relative;
 }
+
+.VideoSection .Preview {
+  @apply w-[300px] h-[180px] bg-black border-4 border-primary rounded-md left-1/2 absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/2;
+}
+
+.VideoSection .Preview button {
+  background: url("/svgs/play.svg") no-repeat center center;
+  background-size: cover;
+  @apply w-12 h-12 left-1/2 top-1/2 absolute transform -translate-x-1/2 -translate-y-1/2;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
+}

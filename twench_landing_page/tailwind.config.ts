@@ -12,7 +12,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary: "#394b37",
+        primary: "var(--primary)",
       },
       screens: {
         xs: "456px",
