@@ -17,7 +17,7 @@ const Header = () => {
       <div className="flex gap-4 my-auto">
         <a
           href=""
-          className="flex h-10 w-10 justify-center bg-white border-black border-2 hover:bg-background"
+          className="flex h-10 w-10 justify-center bg-white border-black border-2 hover:bg-primary"
         >
           <Image
             src="/images/dexscreener.png"
@@ -29,7 +29,7 @@ const Header = () => {
         </a>
         <a
           href=""
-          className="flex h-10 w-10 justify-center bg-white border-black border-2 hover:bg-background"
+          className="flex h-10 w-10 justify-center bg-white border-black border-2 hover:bg-primary"
         >
           <Image
             src="/images/dextools.png"
