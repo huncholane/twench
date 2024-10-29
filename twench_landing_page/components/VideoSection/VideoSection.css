@@ -4,12 +4,4 @@
 
 .VideoSection .Preview {
   @apply w-[290px] bg-black border-4 border-primary rounded-md left-1/2 absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/2 cursor-pointer overflow-hidden;
-  @apply 552:w-[400px];
-  @apply 1100:w-[600px];
-}
-
-.VideoSection .Preview video {
-  /* width: 100%;
-  height: 100%;
-  object-fit: cover; */
 }
