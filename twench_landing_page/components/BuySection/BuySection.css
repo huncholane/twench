@@ -27,7 +27,8 @@
 }
 
 .Bulletin .Text {
-  @apply w-[250px] mt-[27px] text-[9px] mx-auto transform -rotate-[2.8deg];
+  @apply w-[215px] mt-[29px] text-[9px] mx-auto transform -rotate-[2.8deg];
+  @apply 844:w-[230px] 844:ml-[50px] 844:mr-[0px] 844:text-[11px];
 }
 
 .BuySection .Bulletin .Section {
