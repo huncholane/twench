@@ -8,7 +8,13 @@ const LandingSection = () => {
       <div className="Title">$TWENCH</div>
       <div className="Tank"></div>
       <div className="Soldier"></div>
-      <div className="OpenGameButton">OPEN GAME</div>
+      <a
+        href="https://twench.itch.io/twench-run"
+        target="_blank"
+        className="OpenGameButton"
+      >
+        OPEN GAME
+      </a>
     </div>
   );
 };
