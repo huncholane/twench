@@ -7,7 +7,7 @@
 
 .LandingSection .Tank {
   background: url("/images/landing/tank.png") no-repeat center center;
-  background-size: auto 100%;
+  background-size: auto 200%;
   @apply absolute bottom-0 left-0 w-full;
   @apply md:top-52 xs:top-44 top-40;
 }
