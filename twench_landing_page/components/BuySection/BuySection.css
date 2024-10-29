@@ -1,7 +1,25 @@
 .BuySection {
-  @apply bg-white h-[800px] relative w-screen;
+  @apply bg-white h-[700px] relative w-screen text-shadow-none text-black;
 }
 
-.BuySection h1 {
-  @apply text-4xl font-bold text-center pt-20;
+.BuySection .Title {
+  @apply text-2xl leading-none top-[125px] absolute w-full text-center;
+}
+
+.BuySection .Bulletin {
+  background: url("/images/bulletin.png") no-repeat;
+  background-size: contain;
+  @apply absolute w-[300px] h-[480px] top-[160px] left-[50%] transform -translate-x-1/2;
+}
+
+.Bulletin .Text {
+  @apply w-[200px] mt-[27px] text-[9px] mx-auto transform -rotate-[2.8deg];
+}
+
+.BuySection .Bulletin .Section {
+  @apply mt-4;
+}
+
+.BuySection .CopyBtn {
+  @apply border-black border-2 bg-primary text-white absolute rounded-full bottom-[30px] px-3 py-1 text-[30px] text-nowrap left-1/2 transform -rotate-[2.8deg] -translate-x-1/2;
 }
