@@ -22,9 +22,10 @@ const BuySection: React.FC = () => {
             <div className="Section">
               <p>02. GET SOME SOL</p>
               <p>
-                Have SOL in your wallet to switch to $TWENCH. If you don't have
-                any SOL, you can buy directly on Phantom, transfer from another
-                wallet, or buy on another exchange and send it to your wallet.
+                Have SOL in your wallet to switch to $TWENCH. If you don&apos;t
+                have any SOL, you can buy directly on Phantom, transfer from
+                another wallet, or buy on another exchange and send it to your
+                wallet.
               </p>
             </div>
             <div className="Section">
@@ -38,8 +39,8 @@ const BuySection: React.FC = () => {
             <div className="Section">
               <p>04. SWAP FOR TWENCH</p>
               <p>
-                Switch SOL for $TWENCH. We have Zero taxes so you don't need to
-                worry about buying with a specific slippage.
+                Switch SOL for $TWENCH. We have Zero taxes so you don&apos;t
+                need to worry about buying with a specific slippage.
               </p>
             </div>
           </div>
