@@ -4,6 +4,7 @@ import BuySection from "@/components/BuySection";
 import Header from "@/components/Header";
 import LandingSection from "@/components/LandingSection";
 import MotivationSection from "@/components/MotivationSection";
+import RoadMapSection from "@/components/RoadMapSection";
 import VideoSection from "@/components/VideoSection";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <AboutSection />
       <VideoSection />
       <BuySection />
+      <RoadMapSection />
     </div>
   );
 }
