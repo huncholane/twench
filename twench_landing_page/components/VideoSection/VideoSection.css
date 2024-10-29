@@ -3,7 +3,7 @@
 }
 
 .VideoSection .Preview {
-  @apply w-[290px] h-[175px] bg-black border-4 border-primary rounded-md left-1/2 absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/2;
+  @apply w-[290px] h-[166px] bg-black border-4 border-primary rounded-md left-1/2 absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/2 cursor-pointer;
 }
 
 .VideoSection .Preview button {
