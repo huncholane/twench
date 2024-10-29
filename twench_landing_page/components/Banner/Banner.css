@@ -10,9 +10,25 @@
 
 @keyframes scrollBackground {
   from {
-    background-position: 0 center;
+    background-position: center center;
   }
   to {
     background-position: -10000% center;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .Banner .Picture {
+    animation: scrollBackgroundMobile 1000s linear infinite;
+  }
+
+  @keyframes scrollBackgroundMobile {
+    from {
+      background-position: center center;
+    }
+    to {
+      background-position: -100000% center;
+    }
   }
 }
