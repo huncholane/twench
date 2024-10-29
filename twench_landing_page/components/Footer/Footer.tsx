@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <div className="Footer">
       <div className="my-auto w-[20%] text-center text-[10px] text-primary hover:brightness-150">
-        <a href="">Privacy Policy</a>
+        <a href="/privacy">Privacy Policy</a>
       </div>
       <div className="w-[60%] text-center text-[10px] text-shadow-none">
         <p>Battling Everday To Gett Out Of The Twench.</p>
