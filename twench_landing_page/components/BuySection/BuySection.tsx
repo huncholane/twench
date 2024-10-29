@@ -41,6 +41,7 @@ const BuySection: React.FC = () => {
             </div>
           </div>
         </div>
+        <div className="BackpackSoldier"></div>
         <div className="CopyBtn">Click To Copy CA</div>
       </div>
     </div>

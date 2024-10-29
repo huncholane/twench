@@ -3,13 +3,20 @@
 }
 
 .BuySection .Content {
-  @apply relative w-[320px] h-[550px] bg-red-500 top-[125px] left-[50%] transform -translate-x-1/2;
+  @apply relative w-[320px] h-[550px] top-[125px] left-[50%] transform -translate-x-1/2;
   @apply 552:w-[520px];
 }
 
 .BuySection .Title {
   @apply text-2xl leading-none top-[0] absolute w-full text-center;
   @apply 844:right-1/2 844:left-0 844:w-auto 844:text-4xl 844:top-[120px];
+}
+
+.BuySection .Content .BackpackSoldier {
+  background: url("/images/backpack.png") no-repeat;
+  background-size: contain;
+  @apply h-[280px] left-[50px] bottom-[70px] w-[480px] absolute hidden;
+  @apply 844:block;
 }
 
 .BuySection .Bulletin {
@@ -20,7 +27,7 @@
 }
 
 .Bulletin .Text {
-  @apply w-[200px] mt-[27px] text-[9px] mx-auto transform -rotate-[2.8deg];
+  @apply w-[250px] mt-[27px] text-[9px] mx-auto transform -rotate-[2.8deg];
 }
 
 .BuySection .Bulletin .Section {
