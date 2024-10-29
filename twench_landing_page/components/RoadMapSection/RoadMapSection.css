@@ -1,16 +1,26 @@
 .RoadMapSection {
+  position: relative;
+  z-index: 0; /* Ensure the section is positioned correctly */
+}
+
+.RoadMapSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: url("/images/roadmap/building.jpg") no-repeat center center/cover;
-  @apply h-[700px] relative;
+  opacity: 0.5; /* Adjust the opacity value as needed */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
 .RoadMapSection .Container {
-  @apply relative w-auto bg-red-100 top-[20px] h-[660px] left-[50%] transform translate-x-[-50%];
-  @apply 424:w-[400px];
-  @apply 552:w-[500px];
+  @apply w-full py-[20px];
 }
 
 .RoadMapSection .Container .Title {
-  @apply text-4xl w-full text-center;
+  @apply text-4xl w-full text-center my-6;
 }
 
 .RoadMapSection ul {
@@ -23,26 +33,26 @@
 }
 
 .RoadMapSection .Row {
-  @apply flex gap-9 h-[130px];
+  @apply flex gap-9 h-[130px] justify-center;
 }
 
 .RoadMapSection .Container .Soldier {
   background: url("/images/roadmap/soldier.jpg") no-repeat center center/cover;
-  @apply size-[100px] transform rotate-[9.39deg];
+  @apply size-[100px] transform rotate-[9.39deg] border-black border-2;
 }
 
 .RoadMapSection .Container .Tnt {
   background: url("/images/roadmap/tnt.jpg") no-repeat center center/cover;
-  @apply size-[100px] transform rotate-[-9.21deg];
+  @apply size-[100px] transform rotate-[-9.21deg] border-black border-2;
 }
 
 .RoadMapSection .Container .Jetpack {
   background: url("/images/roadmap/jetpack.jpg") no-repeat center center/cover;
-  @apply size-[100px] transform rotate-[9.09deg];
+  @apply size-[100px] transform rotate-[9.09deg] border-black border-2;
 }
 
 .RoadMapSection .Container .Wallstreet {
   background: url("/images/roadmap/wallstreet.jpg") no-repeat center
     center/cover;
-  @apply size-[100px] transform rotate-[-8.37deg];
+  @apply size-[100px] transform rotate-[-8.37deg] border-black border-2;
 }
