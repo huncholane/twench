@@ -5,41 +5,47 @@
 .Twitter {
   background: url("/images/socials/twitter.png") no-repeat center center;
   background-size: 50%;
-  @apply size-[40px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply size-[30px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply 424:size-[40px];
   box-shadow: 4px 4px 0px black;
 }
 
 .Telegram {
   background: url("/images/socials/telegram.png") no-repeat center center;
   background-size: 50%;
-  @apply size-[40px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply size-[30px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply 424:size-[40px];
   box-shadow: 4px 4px 0px black;
 }
 
 .Youtube {
   background: url("/images/socials/youtube.png") no-repeat center center;
   background-size: 50%;
-  @apply size-[40px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply size-[30px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply 424:size-[40px];
   box-shadow: 4px 4px 0px black;
 }
 
 .Instagram {
   background: url("/images/socials/instagram.png") no-repeat center center;
   background-size: 50%;
-  @apply size-[40px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply size-[30px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply 424:size-[40px];
   box-shadow: 4px 4px 0px black;
 }
 
 .TikTok {
   background: url("/images/socials/tiktok.png") no-repeat center center;
   background-size: 50%;
-  @apply size-[40px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply size-[30px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply 424:size-[40px];
   box-shadow: 4px 4px 0px black;
 }
 
 .SoundCloud {
   background: url("/images/socials/soundcloud.png") no-repeat center center;
   background-size: 50%;
-  @apply size-[40px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply size-[30px] my-auto hover:bg-primary border-black border-2 cursor-pointer;
+  @apply 424:size-[40px];
   box-shadow: 4px 4px 0px black;
 }
