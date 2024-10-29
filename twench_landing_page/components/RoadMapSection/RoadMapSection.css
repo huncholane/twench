@@ -29,7 +29,8 @@
 
 .RoadMapSection li {
   @apply text-[10px] text-shadow w-[120px];
-  @apply text-[14px] w-[150px];
+  @apply 424:text-[14px] 424:w-[150px];
+  @apply 902:text-[20px] 902:w-[300px];
   list-style-type: disc;
 }
 
@@ -42,18 +43,21 @@
   background: url("/images/roadmap/soldier.jpg") no-repeat center center/cover;
   @apply size-[100px] transform rotate-[9.39deg] border-black border-2;
   @apply 424:size-[150px];
+  @apply 902:size-[200px];
 }
 
 .RoadMapSection .Container .Tnt {
   background: url("/images/roadmap/tnt.jpg") no-repeat center center/cover;
   @apply size-[100px] transform rotate-[-9.21deg] border-black border-2;
   @apply 424:size-[150px];
+  @apply 902:size-[200px];
 }
 
 .RoadMapSection .Container .Jetpack {
   background: url("/images/roadmap/jetpack.jpg") no-repeat center center/cover;
   @apply size-[100px] transform rotate-[9.09deg] border-black border-2;
   @apply 424:size-[150px];
+  @apply 902:size-[200px];
 }
 
 .RoadMapSection .Container .Wallstreet {
@@ -61,4 +65,5 @@
     center/cover;
   @apply size-[100px] transform rotate-[-8.37deg] border-black border-2;
   @apply 424:size-[150px];
+  @apply 902:size-[200px];
 }
