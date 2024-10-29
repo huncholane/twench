@@ -12,5 +12,5 @@
 
 .FinalArtSection .Running {
   background: url("/images/final/running.png") no-repeat center center/cover;
-  @apply h-full;
+  @apply h-full max-w-[1386px] mx-auto;
 }
