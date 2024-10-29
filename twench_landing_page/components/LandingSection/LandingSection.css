@@ -1,19 +1,19 @@
 .LandingSection {
-  background: url("/images/burning-building-1.png") no-repeat center center;
+  background: url("/images/landing/building.png") no-repeat center center;
   background-size: cover;
   overflow-x: hidden;
   @apply w-screen h-screen min-h-[570px] relative;
 }
 
 .LandingSection .Tank {
-  background: url("/images/tank.png") no-repeat center center;
+  background: url("/images/landing/tank.png") no-repeat center center;
   background-size: auto 100%;
   @apply absolute bottom-0 left-0 w-full;
   @apply md:top-52 xs:top-44 top-40;
 }
 
 .LandingSection .Soldier {
-  background: url("/images/soldier.png") no-repeat center center;
+  background: url("/images/landing/soldier.png") no-repeat center center;
   background-size: auto 100%;
   @apply absolute bottom-0 right-0 w-full;
   @apply md:top-60 xs:top-52 top-48;
