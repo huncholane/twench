@@ -2,14 +2,18 @@
   @apply bg-white h-[700px] relative w-screen text-shadow-none text-black;
 }
 
+.BuySection .Content {
+  @apply relative w-[320px] h-[550px] bg-red-500 top-[125px] left-[50%] transform -translate-x-1/2;
+}
+
 .BuySection .Title {
-  @apply text-2xl leading-none top-[125px] absolute w-full text-center;
+  @apply text-2xl leading-none top-[0] absolute w-full text-center;
 }
 
 .BuySection .Bulletin {
   background: url("/images/bulletin.png") no-repeat;
   background-size: contain;
-  @apply absolute w-[300px] h-[480px] top-[160px] left-[50%] transform -translate-x-1/2;
+  @apply absolute w-[300px] h-[480px] top-[35px] left-[50%] transform -translate-x-1/2;
 }
 
 .Bulletin .Text {
@@ -21,5 +25,5 @@
 }
 
 .BuySection .CopyBtn {
-  @apply border-black border-2 bg-primary text-white absolute rounded-full bottom-[30px] px-3 py-1 text-[30px] text-nowrap left-1/2 transform -rotate-[2.8deg] -translate-x-1/2;
+  @apply border-black hover:brightness-150 cursor-pointer border-2 bg-primary text-white absolute rounded-full bottom-[20px] px-3 py-1 text-[30px] text-nowrap left-1/2 transform -rotate-[2.8deg] -translate-x-1/2;
 }
