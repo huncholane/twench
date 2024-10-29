@@ -1,2 +1,7 @@
 .BuySection {
+  @apply bg-white h-[800px] relative w-screen;
+}
+
+.BuySection h1 {
+  @apply text-4xl font-bold text-center pt-20;
 }

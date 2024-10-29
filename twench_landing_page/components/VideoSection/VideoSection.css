@@ -1,9 +1,9 @@
 .VideoSection {
-  @apply w-full h-0 relative;
+  @apply w-screen h-0 relative z-50;
 }
 
 .VideoSection .Preview {
-  @apply w-[300px] h-[180px] bg-black border-4 border-primary rounded-md left-1/2 absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/2;
+  @apply w-[290px] h-[175px] bg-black border-4 border-primary rounded-md left-1/2 absolute transform -rotate-12 -translate-y-1/2 -translate-x-1/2;
 }
 
 .VideoSection .Preview button {

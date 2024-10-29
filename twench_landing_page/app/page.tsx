@@ -1,5 +1,6 @@
 import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
+import BuySection from "@/components/BuySection";
 import Header from "@/components/Header";
 import LandingSection from "@/components/LandingSection";
 import MotivationSection from "@/components/MotivationSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <MotivationSection />
       <AboutSection />
       <VideoSection />
+      <BuySection />
     </div>
   );
 }

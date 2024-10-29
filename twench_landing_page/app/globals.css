@@ -17,6 +17,7 @@ body {
   background: var(--background);
   font-family: Pixellari, Arial, Helvetica, sans-serif;
   text-shadow: var(--ts-small);
+  width: 100vw;
   overflow-x: hidden;
 }
 
