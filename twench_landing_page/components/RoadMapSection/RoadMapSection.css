@@ -29,30 +29,36 @@
 
 .RoadMapSection li {
   @apply text-[10px] text-shadow w-[120px];
+  @apply text-[14px] w-[150px];
   list-style-type: disc;
 }
 
 .RoadMapSection .Row {
-  @apply flex gap-9 h-[130px] justify-center;
+  @apply flex gap-9 my-8 justify-center;
+  @apply 424:gap-16;
 }
 
 .RoadMapSection .Container .Soldier {
   background: url("/images/roadmap/soldier.jpg") no-repeat center center/cover;
   @apply size-[100px] transform rotate-[9.39deg] border-black border-2;
+  @apply 424:size-[150px];
 }
 
 .RoadMapSection .Container .Tnt {
   background: url("/images/roadmap/tnt.jpg") no-repeat center center/cover;
   @apply size-[100px] transform rotate-[-9.21deg] border-black border-2;
+  @apply 424:size-[150px];
 }
 
 .RoadMapSection .Container .Jetpack {
   background: url("/images/roadmap/jetpack.jpg") no-repeat center center/cover;
   @apply size-[100px] transform rotate-[9.09deg] border-black border-2;
+  @apply 424:size-[150px];
 }
 
 .RoadMapSection .Container .Wallstreet {
   background: url("/images/roadmap/wallstreet.jpg") no-repeat center
     center/cover;
   @apply size-[100px] transform rotate-[-8.37deg] border-black border-2;
+  @apply 424:size-[150px];
 }
