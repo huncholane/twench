@@ -3,7 +3,7 @@ import "./style.css";
 
 const PrivacyPolicy: React.FC = () => {
   return (
-    <div className="privacy-policy">
+    <div className="privacy-policy mt-28  mx-auto">
       <h1>TwenchRun Privacy Policy</h1>
       <p>Effective Date: 10/27/24</p>
 
