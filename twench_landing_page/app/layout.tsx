@@ -1,8 +1,10 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./globals.css";
 
 const pixellari = localFont({
   src: "./fonts/Pixellari.ttf",
@@ -26,6 +28,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <ToastContainer className={"text-shadow-none w-[320px] text-[8px]"} />
       </body>
     </html>
   );

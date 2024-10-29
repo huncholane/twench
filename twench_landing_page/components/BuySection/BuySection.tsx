@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
 import "./BuySection.css";
+import { toast } from "react-toastify";
 
 const BuySection: React.FC = () => {
+  const ca = "GuFmsJrhxo9iVX7WpKGQ4kYg6yofMJLpWPypHM44pump";
   return (
     <div className="BuySection">
       <div className="Content">
@@ -42,7 +45,21 @@ const BuySection: React.FC = () => {
           </div>
         </div>
         <div className="BackpackSoldier"></div>
-        <div className="CopyBtn">Click To Copy CA</div>
+        <div
+          className="CopyBtn"
+          onClick={() => {
+            navigator.clipboard
+              .writeText(ca)
+              .then(() => {
+                toast.success(`${ca} copied to clipboard!`);
+              })
+              .catch((err) => {
+                toast.error("Failed to copy text to clipboard.");
+              });
+          }}
+        >
+          Click To Copy CA
+        </div>
       </div>
     </div>
   );
