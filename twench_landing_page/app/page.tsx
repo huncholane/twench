@@ -13,7 +13,7 @@ export default function Home() {
       <Banner />
       <MotivationSection />
       <AboutSection />
-      {/* <VideoSection /> */}
+      <VideoSection />
     </div>
   );
 }

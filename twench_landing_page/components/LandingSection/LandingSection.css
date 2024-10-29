@@ -2,7 +2,7 @@
   background: url("/images/burning-building-1.png") no-repeat center center;
   background-size: cover;
   overflow-x: hidden;
-  @apply w-screen h-screen min-h-[570px];
+  @apply w-screen h-screen min-h-[570px] relative;
 }
 
 .LandingSection .Tank {

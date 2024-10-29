@@ -1,2 +1,3 @@
 .VideoSection {
+  @apply w-full h-0 relative;
 }

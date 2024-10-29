@@ -1,5 +1,5 @@
 .Header {
-  @apply h-32 flex justify-between -mb-32;
+  @apply h-32 flex justify-between -mb-32 relative z-50;
 }
 
 .HeaderBuyButton {
